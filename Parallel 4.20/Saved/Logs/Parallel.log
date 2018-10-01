@@ -2108,3 +2108,77 @@ LogInit: Object subsystem initialized
 [2018.10.01-14.07.19:892][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2018.10.01-14.07.19:893][317]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Turret.Turret
 [2018.10.01-14.10.56:182][462]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-14.17.49:302][921]LogSavePackage: Moving '../../../../../../Users/jm192929/Downloads/ThighHigh-Studios/Parallel 4.20/Saved/ThirdPersonExampleMap86FA045440E0D60155644EA0E0A7D13A.tmp' to '../../../../../../Users/jm192929/Downloads/ThighHigh-Studios/Parallel 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.01-14.17.49:338][921]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.392
+[2018.10.01-14.17.49:505][921]LogSavePackage: Moving '../../../../../../Users/jm192929/Downloads/ThighHigh-Studios/Parallel 4.20/Saved/ThirdPersonCharacter544DB6804BB1A203AB982D93B4FC8581.tmp' to '../../../../../../Users/jm192929/Downloads/ThighHigh-Studios/Parallel 4.20/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.01-14.19.31:337][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.01-14.20.10:865][244]LogSlate: Took 0.003270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.01-14.20.16:284][798]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.01-14.21.03:954][ 23]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.10.01-14.21.05:713][146]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.01-14.21.05:751][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.01-14.21.05:751][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.01-14.21.05:751][146]PIE: New page: PIE session: ThirdPersonExampleMap (1 Oct 2018 16:21:05)
+[2018.10.01-14.21.05:751][146]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.01-14.21.05:770][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018722s)
+[2018.10.01-14.21.05:770][146]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.01-14.21.05:771][146]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2018.10.01-14.21.05:771][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019962s)
+[2018.10.01-14.21.05:840][146]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.01-14.21.05:911][146]LogInit: FAudioDevice initialized.
+[2018.10.01-14.21.05:939][146]LogLoad: Game class is 'ParallelGamemode_C'
+[2018.10.01-14.21.05:944][146]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.01-15.21.05
+[2018.10.01-14.21.05:945][146]LogWorld: Bringing up level for play took: 0.005228
+[2018.10.01-14.21.05:957][146]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.01-14.21.05:957][146]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.01-14.21.05:957][146]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.01-14.21.05:961][146]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.01-14.21.05:961][146]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.443
+[2018.10.01-14.21.05:961][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.01-14.21.07:211][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:211][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:211][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:211][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:211][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:212][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:212][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:212][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:212][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:212][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:212][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.07:212][285]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.08:715][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors2' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:215][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetOverlappingActors_OverlappingActors3' of length 0 in '/Game/Blueprints/Turret.Turret_C:ExecuteUbergraph_Turret'!
+[2018.10.01-14.21.10:916][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.01-14.21.10:916][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-14.21.10:950][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.01-14.21.10:950][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.01-14.21.10:975][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.01-14.21.11:020][703]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.01-14.21.14:732][128]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-14.21.15:410][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.01-14.21.15:763][203]LogSavePackage: Moving '../../../../../../Users/jm192929/Downloads/ThighHigh-Studios/Parallel 4.20/Saved/ThirdPersonExampleMap773E0AFE4021E81DCBB2849EA4C2A873.tmp' to '../../../../../../Users/jm192929/Downloads/ThighHigh-Studios/Parallel 4.20/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.01-14.21.15:781][203]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.368
+[2018.10.01-14.21.18:352][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
