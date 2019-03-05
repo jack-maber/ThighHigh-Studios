@@ -1,4 +1,4 @@
-﻿Log file open, 03/05/19 12:21:46
+﻿Log file open, 03/05/19 12:28:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Parallel
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.391532
+LogStats: Stats thread started at 0.391865
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.341s to configure plugins.
+LogStreaming: Display: Took  0.343s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -148,580 +148,745 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.05-12.21.46:839][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.05-12.21.46:839][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.05-12.21.46:878][  0]LogHAL: Display: Platform has ~ 16 GB [17006215168 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.05-12.21.46:878][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.03.05-12.21.46:878][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.05-12.21.46:878][  0]LogInit: Computer: 052TGADS-61056
-[2019.03.05-12.21.46:878][  0]LogInit: User: nf192864
-[2019.03.05-12.21.46:878][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.03.05-12.21.46:878][  0]LogInit: High frequency timer resolution =3.117187 MHz
-[2019.03.05-12.21.46:878][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2019.03.05-12.21.46:878][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.05-12.21.46:878][  0]LogMemory: Process Physical Memory: 102.02 MB used, 102.02 MB peak
-[2019.03.05-12.21.46:878][  0]LogMemory: Process Virtual Memory: 85.72 MB used, 85.72 MB peak
-[2019.03.05-12.21.46:878][  0]LogMemory: Physical Memory: 6624.73 MB used,  9593.66 MB free, 16218.39 MB total
-[2019.03.05-12.21.46:878][  0]LogMemory: Virtual Memory: 556.41 MB used,  9593.66 MB free, 134217728.00 MB total
-[2019.03.05-12.21.46:888][  0]LogInit: Using OS detected language (en-US).
-[2019.03.05-12.21.46:888][  0]LogInit: Using OS detected locale (en-GB).
-[2019.03.05-12.21.46:888][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.03.05-12.21.47:152][  0]LogStreaming: Display: Took  0.264s to InitEngineTextLocalization.
-[2019.03.05-12.21.47:152][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.05-12.21.47:182][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.05-12.21.47:182][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.05-12.21.47:325][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.05-12.21.47:325][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.05-12.21.47:369][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2019.03.05-12.21.47:369][  0]LogD3D11RHI:       4018/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.03.05-12.21.47:378][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.03.05-12.21.47:378][  0]LogD3D11RHI:       128/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.03.05-12.21.47:379][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.05-12.21.47:379][  0]LogD3D11RHI:       0/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.05-12.21.47:379][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.05-12.21.47:384][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.05-12.21.47:384][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.05-12.21.47:384][  0]LogWindows: EnumDisplayDevices:
-[2019.03.05-12.21.47:384][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2019.03.05-12.21.47:385][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
-[2019.03.05-12.21.47:385][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.03.05-12.21.47:385][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2019.03.05-12.21.47:385][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.03.05-12.21.47:385][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.03.05-12.21.47:385][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.03.05-12.21.47:385][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.03.05-12.21.47:385][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2019.03.05-12.21.47:385][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
-[2019.03.05-12.21.47:385][  0]LogD3D11RHI:      Driver Date: 3-16-2018
-[2019.03.05-12.21.47:385][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2019.03.05-12.21.47:412][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.05-12.21.47:427][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.03.05-12.21.47:478][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Intermediate/Shaders/WorkingDirectory/9812/).
-[2019.03.05-12.21.47:478][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nf192864/AppData/Local/Temp/UnrealShaderWorkingDir/2FBB8BC9456CE779D0FCCF9B2A73CCD2/'.
-[2019.03.05-12.21.47:653][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.05-12.21.47:662][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.05-12.21.47:672][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.05-12.21.47:682][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.05-12.21.47:692][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.05-12.21.47:701][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.05-12.21.47:711][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.05-12.21.47:721][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.05-12.21.47:725][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:781][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.05-12.21.47:782][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.05-12.21.47:835][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.05-12.21.47:835][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.05-12.21.47:852][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.05-12.21.47:852][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.05-12.21.47:861][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.05-12.21.47:870][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.05-12.21.47:880][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.05-12.21.47:889][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.05-12.21.47:895][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.05-12.21.47:895][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.05-12.21.47:934][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.05-12.21.47:934][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.05-12.21.47:934][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.05-12.21.48:470][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.05-12.21.48:511][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/nf192864/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.05-12.21.48:511][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nf192864/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.03.05-12.21.48:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.05-12.21.48:511][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.05-12.21.48:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.05-12.21.48:511][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.05-12.21.48:521][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.05-12.21.48:533][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nf192864/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.05-12.21.48:533][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.05-12.21.48:533][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.05-12.21.48:546][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.05-12.21.48:547][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.05-12.21.48:548][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.05-12.21.48:611][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
-[2019.03.05-12.21.48:844][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.05-12.21.48:938][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.05-12.21.48:940][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.05-12.21.48:940][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.05-12.21.48:940][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.05-12.21.48:940][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.05-12.21.48:952][  0]LogNetVersion: Parallel 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1362098116)
-[2019.03.05-12.21.50:138][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.887386 seconds
-[2019.03.05-12.21.50:143][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.03.05-12.21.50:143][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.03.05-12.21.50:143][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.05-12.21.50:769][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.05-12.21.50:782][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.05-12.21.50:920][  0]SourceControl: Source control is disabled
-[2019.03.05-12.21.50:920][  0]SourceControl: Source control is disabled
-[2019.03.05-12.21.50:921][  0]SourceControl: Source control is disabled
-[2019.03.05-12.21.50:921][  0]SourceControl: Source control is disabled
-[2019.03.05-12.21.51:065][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.05-12.21.51:104][  0]LogOcInput: OculusInput pre-init called
-[2019.03.05-12.21.51:151][  0]LogEngine: Initializing Engine...
-[2019.03.05-12.21.51:152][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.05-12.21.51:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.05-12.21.51:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.05-12.21.51:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.05-12.21.51:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.05-12.21.51:302][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.05-12.21.51:312][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.05-12.21.51:319][  0]LogInit: XAudio2 using 'PL2290 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.03.05-12.21.51:341][  0]LogInit: FAudioDevice initialized.
-[2019.03.05-12.21.51:341][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.05-12.21.51:376][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/nf192864/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.05-12.21.51:379][  0]LogInit: Texture streaming: Enabled
-[2019.03.05-12.21.51:390][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.05-12.21.51:421][  0]LogInit: Transaction tracking system initialized
-[2019.03.05-12.21.51:436][  0]BlueprintLog: New page: Editor Load
-[2019.03.05-12.21.51:499][  0]LocalizationService: Localization service is disabled
-[2019.03.05-12.21.51:691][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.05-12.21.51:691][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.05-12.21.51:691][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.05-12.21.51:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.05-12.21.51:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.05-12.21.51:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.05-12.21.51:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.05-12.21.51:775][  0]LogFileCache: Scanning file cache for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/' took 0.03s
-[2019.03.05-12.21.51:775][  0]SourceControl: Source control is disabled
-[2019.03.05-12.21.51:775][  0]Cmd: MAP LOAD FILE="F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.05-12.21.51:775][  0]LightingResults: New page: Lighting Build
-[2019.03.05-12.21.51:777][  0]MapCheck: New page: Map Check
-[2019.03.05-12.21.51:777][  0]LightingResults: New page: Lighting Build
-[2019.03.05-12.21.52:073][  0]LogAIModule: Creating AISystem for world MainMenu
-[2019.03.05-12.21.52:073][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.05-12.21.52:098][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.05-12.21.52:141][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.579ms to complete.
-[2019.03.05-12.21.52:141][  0]LogFileHelpers: Loading map 'MainMenu' took 0.366
-[2019.03.05-12.21.52:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.05-12.21.52:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.05-12.21.52:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.05-12.21.52:240][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.05-12.21.52:244][  0]LogCollectionManager: Loaded 0 collections in 0.001241 seconds
-[2019.03.05-12.21.52:285][  0]LogFileCache: Scanning file cache for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Saved/Collections/' took 0.01s
-[2019.03.05-12.21.52:285][  0]LogFileCache: Scanning file cache for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Developers/nf192864/Collections/' took 0.01s
-[2019.03.05-12.21.52:285][  0]LogFileCache: Scanning file cache for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Collections/' took 0.01s
-[2019.03.05-12.21.52:285][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.05-12.21.52:292][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2581 classes and 608 folders.
-[2019.03.05-12.21.52:296][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.03.05-12.21.52:332][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.03.05-12.21.52:336][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.03.05-12.21.52:365][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.05-12.21.52:367][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.05-12.21.52:370][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.05-12.21.52:430][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.03.05-12.21.52:517][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.03.05-12.21.52:517][  0]LogLoad: (Engine Initialization) Total time: 8.14 seconds
-[2019.03.05-12.21.52:518][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.05-12.21.52:564][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.05-12.21.52:633][  2]LogAssetRegistry: Asset discovery search completed in 4.0444 seconds
-[2019.03.05-12.21.52:635][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.05-12.21.52:635][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
-[2019.03.05-12.21.56:790][ 14]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.05-12.21.57:792][ 17]LogFileCache: Retrieving MD5 hashes for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/' took 5.25s
-[2019.03.05-12.22.22:879][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.05-12.22.22:951][194]LogSlate: Window 'Message Log' being destroyed
-[2019.03.05-12.22.22:957][194]LogSlate: Window 'Message Log' being destroyed
-[2019.03.05-12.22.23:973][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.05-12.22.43:009][549]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.05-12.22.44:900][549]LogBlueprint: Warning: [Compiler AnimBP_Bertha] Node  Blend  uses potentially thread-unsafe call  Get OwningCharacterBP . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
-[2019.03.05-12.22.44:912][549]LogBlueprint: Warning: [Compiler AnimBP_Bertha] [0060.54] Compile of AnimBP_Bertha successful, but with 1 Warning(s) [in 795 ms] (/Game/Bertha/BerthaCharacter/AnimBP_Bertha.AnimBP_Bertha)
-[2019.03.05-12.22.48:286][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.48:286][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.48:286][549]LoadErrors: Error: /Game/Maps/AkihabaraStyleMap : Can't find file for asset. /Game/Models/Blueprints/ThinBuilding
-[2019.03.05-12.22.49:755][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.49:755][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.49:795][549]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
-[2019.03.05-12.22.49:795][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Corner_building/corner_base.uasset.
-[2019.03.05-12.22.49:795][549]LoadErrors: Error: /Game/Models/Corner_building/corner_base : Can't find file for asset. /Game/Models/Corner_building/lambert1
-[2019.03.05-12.22.49:795][549]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
-[2019.03.05-12.22.49:795][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Corner_building/corner_base.uasset.
-[2019.03.05-12.22.49:831][549]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
-[2019.03.05-12.22.49:831][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Corner_building/corner_window_piece.uasset.
-[2019.03.05-12.22.49:832][549]LoadErrors: Error: /Game/Models/Corner_building/corner_window_piece : Can't find file for asset. /Game/Models/Corner_building/lambert1
-[2019.03.05-12.22.49:832][549]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
-[2019.03.05-12.22.49:832][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Corner_building/corner_window_piece.uasset.
-[2019.03.05-12.22.55:337][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:337][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:348][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:348][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:348][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:348][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:349][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:349][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:349][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:349][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:349][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:350][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:350][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:350][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:350][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:350][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:351][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:351][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:351][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:351][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:372][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:373][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:450][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:450][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:451][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:451][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:451][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:451][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:451][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:451][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:451][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:452][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:452][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:452][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:452][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:452][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:452][549]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
-[2019.03.05-12.22.55:453][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
-[2019.03.05-12.22.55:617][549]LogTexture: Display: Building textures: T_LParticle_Nebula_Masks_01 (DXT1, 512X512)
-[2019.03.05-12.22.55:617][549]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
-[2019.03.05-12.22.55:617][549]LoadErrors: Failed to load /Game/Models/Corner_building/lambert1.lambert1 Referenced by corner_window_piece
-[2019.03.05-12.22.55:617][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading NULL.
-[2019.03.05-12.22.55:617][549]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
-[2019.03.05-12.22.55:617][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading NULL.
-[2019.03.05-12.22.55:618][549]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
-[2019.03.05-12.22.55:618][549]LoadErrors: Failed to load /Game/Models/Corner_building/lambert1.lambert1 Referenced by corner_base
-[2019.03.05-12.22.55:618][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading NULL.
-[2019.03.05-12.22.55:618][549]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
-[2019.03.05-12.22.55:618][549]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading NULL.
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: T_CaveDust_01 (DXT1, 2048X2048)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: TEST (AutoDXT, 1700X1200)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: Road_Straight_lambert1_Roughness (G8, 2048X2048)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: propaganda_poster_draft (BGRA8, 618X780)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: TEST2 (AutoDXT, 2000X1000)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2019.03.05-12.22.56:058][549]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
-[2019.03.05-12.22.56:471][549]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
-[2019.03.05-12.22.56:471][549]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
-[2019.03.05-12.22.56:471][549]LogTexture: Display: Building textures: Road_Straight_lambert1_Normal (BC5, 2048X2048)
-[2019.03.05-12.22.56:471][549]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
-[2019.03.05-12.22.56:471][549]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
-[2019.03.05-12.22.56:768][549]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X64)
-[2019.03.05-12.22.56:768][549]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
-[2019.03.05-12.22.56:768][549]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X512)
-[2019.03.05-12.22.56:768][549]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X1024)
-[2019.03.05-12.22.56:768][549]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X512)
-[2019.03.05-12.22.56:768][549]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X128)
-[2019.03.05-12.22.56:969][549]LogTexture: Display: Building textures: Road_Straight_lambert1_Metallic (BGRA8, 2048X2048)
-[2019.03.05-12.22.56:969][549]LogTexture: Display: Building textures: Unit_101 (AutoDXT, 2480X3508)
-[2019.03.05-12.22.56:969][549]LogTexture: Display: Building textures: Test3 (AutoDXT, 2000X1000)
-[2019.03.05-12.22.56:969][549]LogTexture: Display: Building textures: FloorTest (AutoDXT, 800X800)
-[2019.03.05-12.22.57:352][549]LogTexture: Display: Building textures: Road_Straight_lambert1_BaseColor (AutoDXT, 2048X2048)
-[2019.03.05-12.22.57:558][549]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave StoreNoise...
-[2019.03.05-12.22.57:558][549]LogTemp: Couldn't find amount to resample to.
-[2019.03.05-12.22.58:028][549]LogStaticMesh: Building static mesh corner_window_piece...
-[2019.03.05-12.22.58:044][549]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Corner_building/corner_window_piece.corner_window_piece
-[2019.03.05-12.22.58:047][549]LogStaticMesh: Building static mesh corner_base...
-[2019.03.05-12.22.58:053][549]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Corner_building/corner_base.corner_base
-[2019.03.05-12.22.58:071][549]LogMaterial: Display: Missing cached shader map for material M_356DustFX, compiling. 
-[2019.03.05-12.22.58:146][549]LogMaterial: Display: Missing cached shader map for material MetalDoor, compiling. 
-[2019.03.05-12.22.58:189][549]LogShaderCompilers: Display: Shaders left to compile 87
-[2019.03.05-12.22.58:189][549]LogShaderCompilers: Display: Shaders left to compile 77
-[2019.03.05-12.22.58:189][549]LogShaderCompilers: Display: Shaders left to compile 67
-[2019.03.05-12.22.58:189][549]LogShaderCompilers: Display: Shaders left to compile 57
-[2019.03.05-12.22.58:189][549]LogShaderCompilers: Display: Shaders left to compile 47
-[2019.03.05-12.22.58:189][549]LogShaderCompilers: Display: Shaders left to compile 37
-[2019.03.05-12.22.58:189][549]LogShaderCompilers: Display: Shaders left to compile 27
-[2019.03.05-12.22.58:189][549]LogShaderCompilers: Display: Shaders left to compile 17
-[2019.03.05-12.22.58:222][549]LogStaticMesh: Building static mesh commercial_high_pop_small...
-[2019.03.05-12.22.58:257][549]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Tali_new/commercial_high_pop_small.commercial_high_pop_small
-[2019.03.05-12.22.58:261][549]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. 
-[2019.03.05-12.22.58:410][549]LogStaticMesh: Building static mesh Stairs...
-[2019.03.05-12.22.58:454][549]LogStaticMesh: Built static mesh [0.04s] /Game/Models/FBX_environmentassets/Stairs.Stairs
-[2019.03.05-12.22.58:463][549]LogStaticMesh: Building static mesh Gatedbush...
-[2019.03.05-12.22.58:477][549]LogStaticMesh: Built static mesh [0.01s] /Game/Models/FBX_environmentassets/Gatedbush.Gatedbush
-[2019.03.05-12.22.58:481][549]LogMaterial: Display: Missing cached shader map for material VendingMachine, compiling. 
-[2019.03.05-12.22.58:521][549]LogMaterial: Display: Missing cached shader map for material TEST_Mat, compiling. 
-[2019.03.05-12.22.58:550][549]LogMaterial: Display: Missing cached shader map for material Test3_mat, compiling. 
-[2019.03.05-12.22.58:564][549]LogMaterial: Display: Missing cached shader map for material TEST2_Mat, compiling. 
-[2019.03.05-12.22.58:584][549]LogStaticMesh: Building static mesh apartment_polySurface23...
-[2019.03.05-12.22.58:591][549]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Tali_new/apartment_polySurface23.apartment_polySurface23
-[2019.03.05-12.22.58:595][549]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
-[2019.03.05-12.22.58:630][549]LogStaticMesh: Building static mesh apartment_polySurface22...
-[2019.03.05-12.22.58:652][549]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Tali_new/apartment_polySurface22.apartment_polySurface22
-[2019.03.05-12.22.58:655][549]LogStaticMesh: Building static mesh apartment_polySurface22...
-[2019.03.05-12.22.58:676][549]LogStaticMesh: Built static mesh [0.02s] /Game/Models/Tali/apartment_polySurface22.apartment_polySurface22
-[2019.03.05-12.22.58:679][549]LogStaticMesh: Building static mesh Road_Straight...
-[2019.03.05-12.22.58:691][549]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Road_Assets/Road_Straight.Road_Straight
-[2019.03.05-12.22.58:730][549]LogMaterial: Display: Missing cached shader map for material Test3_Mat1, compiling. 
-[2019.03.05-12.22.58:760][549]LogMaterial: Display: Missing cached shader map for material TEST2_Mat1, compiling. 
-[2019.03.05-12.22.58:791][549]LogMaterial: Display: Missing cached shader map for material propaganda_poster_draft_Mat, compiling. 
-[2019.03.05-12.22.58:859][549]LogMaterial: Display: Missing cached shader map for material GatedBush, compiling. 
-[2019.03.05-12.22.58:900][549]LogMaterial: Display: Missing cached shader map for material Road, compiling. 
-[2019.03.05-12.22.58:923][549]LogMaterial: Display: Missing cached shader map for material Unit_101_Mat, compiling. 
-[2019.03.05-12.22.58:946][549]LogMaterial: Display: Missing cached shader map for material D_FloorTest, compiling. 
-[2019.03.05-12.22.58:968][549]LogMaterial: Display: Missing cached shader map for material Streetlight, compiling. 
-[2019.03.05-12.22.59:652][549]LogAIModule: Creating AISystem for world AkihabaraStyleMap
-[2019.03.05-12.22.59:696][549]LogMaterial: Warning: Material /Game/Materials/Palette/Palette.Palette needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:704][549]LogMaterial: Display: Missing cached shader map for material Palette, compiling. 
-[2019.03.05-12.22.59:727][549]MapCheck: Warning: Palette Material /Game/Materials/Palette/Palette.Palette was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:741][549]LogMaterial: Warning: Material /Game/Materials/Boxcrate/BoxCrate.BoxCrate needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:745][549]LogMaterial: Display: Missing cached shader map for material BoxCrate, compiling. 
-[2019.03.05-12.22.59:767][549]MapCheck: Warning: BoxCrate Material /Game/Materials/Boxcrate/BoxCrate.BoxCrate was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:767][549]LogMaterial: Warning: Material /Game/Materials/CylinderCrate/CylinderCrate.CylinderCrate needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:770][549]LogMaterial: Display: Missing cached shader map for material CylinderCrate, compiling. 
-[2019.03.05-12.22.59:793][549]MapCheck: Warning: CylinderCrate Material /Game/Materials/CylinderCrate/CylinderCrate.CylinderCrate was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:793][549]LogMaterial: Warning: Material /Game/Materials/Bench/Bench.Bench needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:795][549]LogMaterial: Display: Missing cached shader map for material Bench, compiling. 
-[2019.03.05-12.22.59:819][549]MapCheck: Warning: Bench Material /Game/Materials/Bench/Bench.Bench was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:820][549]LogMaterial: Warning: Material /Game/Materials/concreteblock/ConcreteBlock.ConcreteBlock needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:822][549]LogMaterial: Display: Missing cached shader map for material ConcreteBlock, compiling. 
-[2019.03.05-12.22.59:839][549]MapCheck: Warning: ConcreteBlock Material /Game/Materials/concreteblock/ConcreteBlock.ConcreteBlock was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:840][549]LogMaterial: Warning: Material /Game/Materials/Rubble1/Rubble.Rubble needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:843][549]LogMaterial: Display: Missing cached shader map for material Rubble, compiling. 
-[2019.03.05-12.22.59:865][549]MapCheck: Warning: Rubble Material /Game/Materials/Rubble1/Rubble.Rubble was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:866][549]LogMaterial: Warning: Material /Game/Models/Tali_new/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:869][549]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
-[2019.03.05-12.22.59:909][549]MapCheck: Warning: lambert1 Material /Game/Models/Tali_new/lambert1.lambert1 was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:909][549]LogMaterial: Warning: Material /Game/Models/Tali_new/WorldGridMaterial.WorldGridMaterial needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:912][549]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. 
-[2019.03.05-12.22.59:950][549]MapCheck: Warning: WorldGridMaterial Material /Game/Models/Tali_new/WorldGridMaterial.WorldGridMaterial was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:951][549]LogMaterial: Warning: Material /Game/Materials/StandingSign/StandingSign.StandingSign needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:954][549]LogMaterial: Display: Missing cached shader map for material StandingSign, compiling. 
-[2019.03.05-12.22.59:972][549]MapCheck: Warning: StandingSign Material /Game/Materials/StandingSign/StandingSign.StandingSign was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.22.59:986][549]LogMaterial: Warning: Material /Game/Models/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.22.59:990][549]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
-[2019.03.05-12.23.00:030][549]MapCheck: Warning: lambert1 Material /Game/Models/lambert1.lambert1 was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2019.03.05-12.23.00:154][549]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap
-[2019.03.05-12.23.00:227][549]Cmd: MAP LOAD FILE="F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.05-12.23.00:227][549]LightingResults: New page: Lighting Build
-[2019.03.05-12.23.00:228][549]LoadErrors: New page: Loading map: AkihabaraStyleMap.umap
-[2019.03.05-12.23.00:228][549]MapCheck: New page: Map Check
-[2019.03.05-12.23.00:228][549]LightingResults: New page: Lighting Build
-[2019.03.05-12.23.00:559][549]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.05-12.23.00:643][549]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.05-12.23.00:792][549]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 149.611ms to complete.
-[2019.03.05-12.23.00:794][549]LogFileHelpers: Loading map 'AkihabaraStyleMap' took 0.569
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'part1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh2': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh3': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh4': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh5': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh6': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:844][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh7': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'part1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh2': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh3': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh4': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh5': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh6': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh7': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'part1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh2': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:845][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh3': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh4': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh5': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh6': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh7': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'part1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh2': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh3': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh4': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh5': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh6': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.00:846][549]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh7': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
-[2019.03.05-12.23.01:774][552]LogShaderCompilers: Display: Shaders left to compile 993
-[2019.03.05-12.23.01:833][552]LogShaderCompilers: Display: Shaders left to compile 983
-[2019.03.05-12.23.02:058][552]LogShaderCompilers: Display: Shaders left to compile 973
-[2019.03.05-12.23.02:461][562]LogShaderCompilers: Display: Shaders left to compile 963
-[2019.03.05-12.23.02:569][562]LogShaderCompilers: Display: Shaders left to compile 953
-[2019.03.05-12.23.02:620][566]LogShaderCompilers: Display: Shaders left to compile 943
-[2019.03.05-12.23.03:206][602]LogShaderCompilers: Display: Shaders left to compile 933
-[2019.03.05-12.23.03:213][603]LogShaderCompilers: Display: Shaders left to compile 923
-[2019.03.05-12.23.03:233][605]LogSlate: Window 'Message Log' being destroyed
-[2019.03.05-12.23.03:238][605]LogSlate: Window 'Message Log' being destroyed
-[2019.03.05-12.23.04:192][664]LogShaderCompilers: Display: Shaders left to compile 913
-[2019.03.05-12.23.04:588][687]LogShaderCompilers: Display: Shaders left to compile 903
-[2019.03.05-12.23.05:045][716]LogShaderCompilers: Display: Shaders left to compile 893
-[2019.03.05-12.23.05:270][730]LogShaderCompilers: Display: Shaders left to compile 883
-[2019.03.05-12.23.05:539][746]LogShaderCompilers: Display: Shaders left to compile 873
-[2019.03.05-12.23.05:551][747]LogShaderCompilers: Display: Shaders left to compile 863
-[2019.03.05-12.23.05:597][750]LogShaderCompilers: Display: Shaders left to compile 853
-[2019.03.05-12.23.06:090][778]LogShaderCompilers: Display: Shaders left to compile 843
-[2019.03.05-12.23.06:636][811]LogShaderCompilers: Display: Shaders left to compile 833
-[2019.03.05-12.23.07:128][840]LogShaderCompilers: Display: Shaders left to compile 823
-[2019.03.05-12.23.07:193][844]LogShaderCompilers: Display: Shaders left to compile 813
-[2019.03.05-12.23.08:402][933]LogShaderCompilers: Display: Shaders left to compile 803
-[2019.03.05-12.23.08:450][937]LogShaderCompilers: Display: Shaders left to compile 793
-[2019.03.05-12.23.08:655][952]LogShaderCompilers: Display: Shaders left to compile 783
-[2019.03.05-12.23.09:029][969]LogShaderCompilers: Display: Shaders left to compile 773
-[2019.03.05-12.23.09:986][ 13]LogShaderCompilers: Display: Shaders left to compile 763
-[2019.03.05-12.23.10:173][ 22]LogShaderCompilers: Display: Shaders left to compile 753
-[2019.03.05-12.23.10:333][ 30]LogShaderCompilers: Display: Shaders left to compile 743
-[2019.03.05-12.23.10:412][ 34]LogShaderCompilers: Display: Shaders left to compile 733
-[2019.03.05-12.23.11:259][ 87]LogShaderCompilers: Display: Shaders left to compile 723
-[2019.03.05-12.23.11:560][106]LogShaderCompilers: Display: Shaders left to compile 713
-[2019.03.05-12.23.11:698][113]LogShaderCompilers: Display: Shaders left to compile 703
-[2019.03.05-12.23.12:094][134]LogShaderCompilers: Display: Shaders left to compile 693
-[2019.03.05-12.23.12:161][138]LogShaderCompilers: Display: Shaders left to compile 683
-[2019.03.05-12.23.12:770][167]LogShaderCompilers: Display: Shaders left to compile 673
-[2019.03.05-12.23.12:881][173]LogShaderCompilers: Display: Shaders left to compile 663
-[2019.03.05-12.23.13:485][201]LogShaderCompilers: Display: Shaders left to compile 653
-[2019.03.05-12.23.13:507][202]LogShaderCompilers: Display: Shaders left to compile 643
-[2019.03.05-12.23.13:578][206]LogShaderCompilers: Display: Shaders left to compile 633
-[2019.03.05-12.23.14:685][276]LogShaderCompilers: Display: Shaders left to compile 623
-[2019.03.05-12.23.15:613][334]LogShaderCompilers: Display: Shaders left to compile 613
-[2019.03.05-12.23.15:851][349]LogShaderCompilers: Display: Shaders left to compile 603
-[2019.03.05-12.23.16:002][360]LogShaderCompilers: Display: Shaders left to compile 593
-[2019.03.05-12.23.16:464][393]LogShaderCompilers: Display: Shaders left to compile 583
-[2019.03.05-12.23.16:862][421]LogShaderCompilers: Display: Shaders left to compile 573
-[2019.03.05-12.23.17:762][491]LogShaderCompilers: Display: Shaders left to compile 563
-[2019.03.05-12.23.17:789][493]LogShaderCompilers: Display: Shaders left to compile 553
-[2019.03.05-12.23.17:961][506]LogShaderCompilers: Display: Shaders left to compile 543
-[2019.03.05-12.23.18:649][556]LogShaderCompilers: Display: Shaders left to compile 533
-[2019.03.05-12.23.19:284][594]LogShaderCompilers: Display: Shaders left to compile 523
-[2019.03.05-12.23.19:378][599]LogShaderCompilers: Display: Shaders left to compile 513
-[2019.03.05-12.23.19:946][633]LogShaderCompilers: Display: Shaders left to compile 503
-[2019.03.05-12.23.20:092][642]LogShaderCompilers: Display: Shaders left to compile 493
-[2019.03.05-12.23.20:186][648]LogShaderCompilers: Display: Shaders left to compile 483
-[2019.03.05-12.23.20:738][682]LogShaderCompilers: Display: Shaders left to compile 473
-[2019.03.05-12.23.21:187][709]LogShaderCompilers: Display: Shaders left to compile 463
-[2019.03.05-12.23.21:286][715]LogShaderCompilers: Display: Shaders left to compile 453
-[2019.03.05-12.23.21:730][746]LogShaderCompilers: Display: Shaders left to compile 443
-[2019.03.05-12.23.22:195][781]LogShaderCompilers: Display: Shaders left to compile 433
-[2019.03.05-12.23.23:487][860]LogShaderCompilers: Display: Shaders left to compile 423
-[2019.03.05-12.23.23:608][866]LogShaderCompilers: Display: Shaders left to compile 413
-[2019.03.05-12.23.23:920][881]LogShaderCompilers: Display: Shaders left to compile 403
-[2019.03.05-12.23.24:254][898]LogShaderCompilers: Display: Shaders left to compile 393
-[2019.03.05-12.23.24:552][918]LogShaderCompilers: Display: Shaders left to compile 383
-[2019.03.05-12.23.24:933][946]LogShaderCompilers: Display: Shaders left to compile 373
-[2019.03.05-12.23.25:022][953]LogShaderCompilers: Display: Shaders left to compile 363
-[2019.03.05-12.23.25:128][958]LogShaderCompilers: Display: Shaders left to compile 353
-[2019.03.05-12.23.25:608][984]LogShaderCompilers: Display: Shaders left to compile 343
-[2019.03.05-12.23.26:147][ 12]LogShaderCompilers: Display: Shaders left to compile 333
-[2019.03.05-12.23.26:668][ 46]LogShaderCompilers: Display: Shaders left to compile 323
-[2019.03.05-12.23.26:795][ 56]LogShaderCompilers: Display: Shaders left to compile 313
-[2019.03.05-12.23.26:989][ 73]LogShaderCompilers: Display: Shaders left to compile 303
-[2019.03.05-12.23.27:938][154]LogShaderCompilers: Display: Shaders left to compile 293
-[2019.03.05-12.23.28:011][161]LogShaderCompilers: Display: Shaders left to compile 283
-[2019.03.05-12.23.28:237][180]LogShaderCompilers: Display: Shaders left to compile 273
-[2019.03.05-12.23.28:468][198]LogShaderCompilers: Display: Shaders left to compile 263
-[2019.03.05-12.23.29:011][223]LogShaderCompilers: Display: Shaders left to compile 253
-[2019.03.05-12.23.29:027][224]LogShaderCompilers: Display: Shaders left to compile 243
-[2019.03.05-12.23.29:907][265]LogShaderCompilers: Display: Shaders left to compile 233
-[2019.03.05-12.23.30:115][276]LogShaderCompilers: Display: Shaders left to compile 223
-[2019.03.05-12.23.30:419][292]LogShaderCompilers: Display: Shaders left to compile 213
-[2019.03.05-12.23.31:010][315]LogShaderCompilers: Display: Shaders left to compile 203
-[2019.03.05-12.23.31:227][325]LogShaderCompilers: Display: Shaders left to compile 193
-[2019.03.05-12.23.31:258][327]LogShaderCompilers: Display: Shaders left to compile 183
-[2019.03.05-12.23.31:302][330]LogShaderCompilers: Display: Shaders left to compile 173
-[2019.03.05-12.23.32:320][383]LogShaderCompilers: Display: Shaders left to compile 163
-[2019.03.05-12.23.32:354][385]LogShaderCompilers: Display: Shaders left to compile 153
-[2019.03.05-12.23.32:817][408]LogShaderCompilers: Display: Shaders left to compile 143
-[2019.03.05-12.23.33:239][432]LogShaderCompilers: Display: Shaders left to compile 133
-[2019.03.05-12.23.33:318][437]LogShaderCompilers: Display: Shaders left to compile 123
-[2019.03.05-12.23.33:418][444]LogShaderCompilers: Display: Shaders left to compile 113
-[2019.03.05-12.23.34:145][487]LogShaderCompilers: Display: Shaders left to compile 103
-[2019.03.05-12.23.34:337][499]LogShaderCompilers: Display: Shaders left to compile 93
-[2019.03.05-12.23.34:904][536]LogShaderCompilers: Display: Shaders left to compile 83
-[2019.03.05-12.23.35:037][543]LogShaderCompilers: Display: Shaders left to compile 73
-[2019.03.05-12.23.35:472][571]LogShaderCompilers: Display: Shaders left to compile 63
-[2019.03.05-12.23.35:585][577]LogShaderCompilers: Display: Shaders left to compile 53
-[2019.03.05-12.23.36:161][614]LogShaderCompilers: Display: Shaders left to compile 43
-[2019.03.05-12.23.36:411][630]LogShaderCompilers: Display: Shaders left to compile 33
-[2019.03.05-12.23.36:674][647]LogShaderCompilers: Display: Shaders left to compile 23
-[2019.03.05-12.23.37:161][677]LogShaderCompilers: Display: Shaders left to compile 13
-[2019.03.05-12.23.37:244][681]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.03.05-12.23.59:317][927]LogEditorViewport: Clicking on Actor (LMB): AverageSizeCommercial_C (AverageSizeCommercial)
-[2019.03.05-12.24.05:617][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.05-12.24.20:138][719]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Models/Tall_building/Commercial_tall_base.Commercial_tall_base
-[2019.03.05-12.24.20:576][719]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.03.05-12.24.32:187][643]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.05-12.24.41:157][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.05-12.24.41:497][642]LogSavePackage: Moving 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Saved/Commercial_tall_base6388D7774EF6B87AC579E795EDCED035.tmp' to 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Tall_building/Commercial_tall_base.uasset'
-[2019.03.05-12.24.43:019][796]LogSlate: Window 'Commercial_tall_base' being destroyed
-[2019.03.05-12.24.43:024][796]LogSlate: Window 'Commercial_tall_base' being destroyed
-[2019.03.05-12.25.05:771][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Stairs2)
-[2019.03.05-12.25.07:650][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.05-12.25.07:806][416]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Models/FBX_environmentassets/Stairs.Stairs
-[2019.03.05-12.25.13:975][936]LogMaterial: Warning: Material /Game/Materials/Stairway/Stairway.Stairway needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.25.13:977][936]LogMaterial: Display: Missing cached shader map for material Stairway, compiling. 
-[2019.03.05-12.25.14:036][936]LogShaderCompilers: Display: Shaders left to compile 31
-[2019.03.05-12.25.14:036][936]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.03.05-12.25.14:036][936]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.03.05-12.25.14:036][936]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.03.05-12.25.27:234][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.03.05-12.25.33:700][969]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
-[2019.03.05-12.25.33:713][969]LogMaterial: Warning: Material /Game/Models/Turret/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
-[2019.03.05-12.25.33:715][969]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
-[2019.03.05-12.25.33:752][969]LogShaderCompilers: Display: Shaders left to compile 22
-[2019.03.05-12.25.33:752][969]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.03.05-12.25.33:752][969]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.03.05-12.25.33:752][969]LogShaderCompilers: Display: Shaders left to compile 31
-[2019.03.05-12.25.33:752][969]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.03.05-12.25.33:752][969]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.03.05-12.25.33:752][969]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.03.05-12.25.38:656][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.05-12.25.38:734][434]LogSlate: Window 'Stairs*' being destroyed
-[2019.03.05-12.25.38:739][434]LogSlate: Window 'Stairs*' being destroyed
-[2019.03.05-12.26.05:005][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.05-12.26.05:159][421]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Models/Tall_building/Commercial_tall_base.Commercial_tall_base
-[2019.03.05-12.26.06:878][541]LogSavePackage: Moving 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Saved/Commercial_tall_baseE04DD9FF42F5543FFF30718C59FCFEA7.tmp' to 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Tall_building/Commercial_tall_base.uasset'
-[2019.03.05-12.26.08:146][657]LogSlate: Window 'Commercial_tall_base' being destroyed
-[2019.03.05-12.26.08:152][657]LogSlate: Window 'Commercial_tall_base' being destroyed
-[2019.03.05-12.26.40:641][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-12.28.59:496][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-12.28.59:496][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.05-12.28.59:546][  0]LogHAL: Display: Platform has ~ 16 GB [17006215168 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.05-12.28.59:547][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.05-12.28.59:547][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.05-12.28.59:547][  0]LogInit: Computer: 052TGADS-61056
+[2019.03.05-12.28.59:547][  0]LogInit: User: nf192864
+[2019.03.05-12.28.59:547][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.03.05-12.28.59:547][  0]LogInit: High frequency timer resolution =3.117187 MHz
+[2019.03.05-12.28.59:547][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.03.05-12.28.59:547][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.05-12.28.59:547][  0]LogMemory: Process Physical Memory: 102.08 MB used, 102.08 MB peak
+[2019.03.05-12.28.59:547][  0]LogMemory: Process Virtual Memory: 85.99 MB used, 85.99 MB peak
+[2019.03.05-12.28.59:547][  0]LogMemory: Physical Memory: 6246.07 MB used,  9972.32 MB free, 16218.39 MB total
+[2019.03.05-12.28.59:547][  0]LogMemory: Virtual Memory: 556.41 MB used,  9972.32 MB free, 134217728.00 MB total
+[2019.03.05-12.28.59:557][  0]LogInit: Using OS detected language (en-US).
+[2019.03.05-12.28.59:557][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.05-12.28.59:558][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.05-12.28.59:826][  0]LogStreaming: Display: Took  0.269s to InitEngineTextLocalization.
+[2019.03.05-12.28.59:826][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.05-12.28.59:863][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.05-12.28.59:863][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.05-12.28.59:999][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.05-12.28.59:999][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.05-12.29.00:043][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.03.05-12.29.00:043][  0]LogD3D11RHI:       4018/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.05-12.29.00:051][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.03.05-12.29.00:052][  0]LogD3D11RHI:       128/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.05-12.29.00:054][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.05-12.29.00:054][  0]LogD3D11RHI:       0/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.05-12.29.00:054][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.05-12.29.00:059][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.05-12.29.00:059][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.05-12.29.00:059][  0]LogWindows: EnumDisplayDevices:
+[2019.03.05-12.29.00:059][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.03.05-12.29.00:059][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:1)
+[2019.03.05-12.29.00:060][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.05-12.29.00:060][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.03.05-12.29.00:060][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.03.05-12.29.00:060][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.03.05-12.29.00:060][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.03.05-12.29.00:060][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.03.05-12.29.00:060][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.03.05-12.29.00:060][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
+[2019.03.05-12.29.00:060][  0]LogD3D11RHI:      Driver Date: 3-16-2018
+[2019.03.05-12.29.00:060][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.03.05-12.29.00:086][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.05-12.29.00:102][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.05-12.29.00:153][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Intermediate/Shaders/WorkingDirectory/3540/).
+[2019.03.05-12.29.00:153][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nf192864/AppData/Local/Temp/UnrealShaderWorkingDir/4D1D8A594611109C584D6E91B392234A/'.
+[2019.03.05-12.29.00:342][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.05-12.29.00:351][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.05-12.29.00:361][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.05-12.29.00:371][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.05-12.29.00:381][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.05-12.29.00:391][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.05-12.29.00:401][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.05-12.29.00:410][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.05-12.29.00:415][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-12.29.00:475][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.05-12.29.00:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-12.29.00:527][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-12.29.00:544][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-12.29.00:544][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-12.29.00:553][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.05-12.29.00:562][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.05-12.29.00:571][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.05-12.29.00:581][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.05-12.29.00:587][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.05-12.29.00:587][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.05-12.29.00:626][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.05-12.29.00:626][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.05-12.29.00:626][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.05-12.29.01:156][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.05-12.29.01:198][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/nf192864/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-12.29.01:198][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/nf192864/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.05-12.29.01:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.05-12.29.01:198][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.05-12.29.01:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.05-12.29.01:198][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.05-12.29.01:208][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.05-12.29.01:220][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nf192864/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.05-12.29.01:220][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.05-12.29.01:220][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.05-12.29.01:233][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.05-12.29.01:235][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.05-12.29.01:235][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.05-12.29.01:298][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2019.03.05-12.29.01:531][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-12.29.01:625][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.05-12.29.01:627][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.05-12.29.01:627][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.05-12.29.01:627][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.05-12.29.01:627][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.05-12.29.01:639][  0]LogNetVersion: Parallel 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1362098116)
+[2019.03.05-12.29.03:321][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 1.366395 seconds
+[2019.03.05-12.29.03:326][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.05-12.29.03:326][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.05-12.29.03:326][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.05-12.29.03:944][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.05-12.29.03:955][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.05-12.29.04:114][  0]SourceControl: Source control is disabled
+[2019.03.05-12.29.04:114][  0]SourceControl: Source control is disabled
+[2019.03.05-12.29.04:115][  0]SourceControl: Source control is disabled
+[2019.03.05-12.29.04:116][  0]SourceControl: Source control is disabled
+[2019.03.05-12.29.04:259][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.05-12.29.04:293][  0]LogOcInput: OculusInput pre-init called
+[2019.03.05-12.29.04:339][  0]LogEngine: Initializing Engine...
+[2019.03.05-12.29.04:340][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.05-12.29.04:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-12.29.04:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-12.29.04:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-12.29.04:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-12.29.04:495][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.05-12.29.04:505][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.05-12.29.04:512][  0]LogInit: XAudio2 using 'PL2290 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-12.29.04:534][  0]LogInit: FAudioDevice initialized.
+[2019.03.05-12.29.04:534][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.05-12.29.04:569][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/nf192864/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-12.29.04:571][  0]LogInit: Texture streaming: Enabled
+[2019.03.05-12.29.04:583][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.05-12.29.04:595][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.05-12.29.04:595][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.05-12.29.04:636][  0]LogInit: Transaction tracking system initialized
+[2019.03.05-12.29.04:652][  0]BlueprintLog: New page: Editor Load
+[2019.03.05-12.29.04:716][  0]LocalizationService: Localization service is disabled
+[2019.03.05-12.29.04:916][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.05-12.29.04:916][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.05-12.29.04:916][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.05-12.29.04:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-12.29.04:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-12.29.04:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-12.29.04:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-12.29.05:000][  0]LogFileCache: Scanning file cache for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/' took 0.03s
+[2019.03.05-12.29.05:000][  0]SourceControl: Source control is disabled
+[2019.03.05-12.29.05:000][  0]Cmd: MAP LOAD FILE="F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.05-12.29.05:000][  0]LightingResults: New page: Lighting Build
+[2019.03.05-12.29.05:003][  0]MapCheck: New page: Map Check
+[2019.03.05-12.29.05:003][  0]LightingResults: New page: Lighting Build
+[2019.03.05-12.29.05:313][  0]LogAIModule: Creating AISystem for world MainMenu
+[2019.03.05-12.29.05:314][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.05-12.29.05:354][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.05-12.29.05:391][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.917ms to complete.
+[2019.03.05-12.29.05:391][  0]LogFileHelpers: Loading map 'MainMenu' took 0.391
+[2019.03.05-12.29.05:488][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-12.29.05:493][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-12.29.05:499][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-12.29.05:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-12.29.05:508][  0]LogCollectionManager: Loaded 0 collections in 0.001246 seconds
+[2019.03.05-12.29.05:549][  0]LogFileCache: Scanning file cache for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Saved/Collections/' took 0.01s
+[2019.03.05-12.29.05:549][  0]LogFileCache: Scanning file cache for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Developers/nf192864/Collections/' took 0.01s
+[2019.03.05-12.29.05:549][  0]LogFileCache: Scanning file cache for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Collections/' took 0.01s
+[2019.03.05-12.29.05:549][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.05-12.29.05:556][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2581 classes and 608 folders.
+[2019.03.05-12.29.05:560][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.05-12.29.05:593][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.05-12.29.05:596][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.05-12.29.05:607][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.05-12.29.05:608][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.05-12.29.05:613][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.05-12.29.05:669][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-12.29.05:750][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.05-12.29.05:751][  0]LogLoad: (Engine Initialization) Total time: 8.74 seconds
+[2019.03.05-12.29.05:751][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.05-12.29.05:793][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.05-12.29.05:865][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-12.29.05:907][  2]LogAssetRegistry: Asset discovery search completed in 4.6311 seconds
+[2019.03.05-12.29.05:909][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.05-12.29.05:909][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2019.03.05-12.29.10:872][572]LogFileCache: Retrieving MD5 hashes for directory 'F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/' took 5.10s
+[2019.03.05-12.29.43:325][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-12.29.43:486][ 12]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-12.29.43:493][ 12]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Models/Minion_4_0.Minion_4_0
+[2019.03.05-12.29.43:903][ 12]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.05-12.29.58:916][808]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-12.29.59:050][824]LogSlate: Window 'Minion_4_0' being destroyed
+[2019.03.05-12.29.59:054][824]LogSlate: Window 'Minion_4_0' being destroyed
+[2019.03.05-12.30.07:557][589]LogBlueprint: Warning: [Compiler AnimBP_Bertha] Node  Blend  uses potentially thread-unsafe call  Get OwningCharacterBP . Disable threaded update or use a thread-safe call. Function may need BlueprintThreadSafe metadata adding.
+[2019.03.05-12.30.07:569][589]LogBlueprint: Warning: [Compiler AnimBP_Bertha] [0070.56] Compile of AnimBP_Bertha successful, but with 1 Warning(s) [in 784 ms] (/Game/Bertha/BerthaCharacter/AnimBP_Bertha.AnimBP_Bertha)
+[2019.03.05-12.30.07:795][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.07:795][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.07:795][589]LoadErrors: Error: /Game/Maps/AkihabaraStyleMap : Can't find file for asset. /Game/Models/Blueprints/ThinBuilding
+[2019.03.05-12.30.07:834][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.07:834][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.07:837][589]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
+[2019.03.05-12.30.07:837][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Corner_building/corner_base.uasset.
+[2019.03.05-12.30.07:837][589]LoadErrors: Error: /Game/Models/Corner_building/corner_base : Can't find file for asset. /Game/Models/Corner_building/lambert1
+[2019.03.05-12.30.07:837][589]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
+[2019.03.05-12.30.07:837][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Corner_building/corner_base.uasset.
+[2019.03.05-12.30.07:838][589]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
+[2019.03.05-12.30.07:838][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Corner_building/corner_window_piece.uasset.
+[2019.03.05-12.30.07:838][589]LoadErrors: Error: /Game/Models/Corner_building/corner_window_piece : Can't find file for asset. /Game/Models/Corner_building/lambert1
+[2019.03.05-12.30.07:838][589]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
+[2019.03.05-12.30.07:838][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Models/Corner_building/corner_window_piece.uasset.
+[2019.03.05-12.30.08:019][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:019][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:023][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:024][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:024][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:024][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:024][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:024][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:024][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:024][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:024][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap.
+[2019.03.05-12.30.08:038][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:039][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:040][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:115][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:115][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:115][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:115][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file '/Game/Models/Blueprints/ThinBuilding'
+[2019.03.05-12.30.08:116][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Blueprints/ThinBuilding' while loading NULL.
+[2019.03.05-12.30.08:177][589]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
+[2019.03.05-12.30.08:177][589]LoadErrors: Failed to load /Game/Models/Corner_building/lambert1.lambert1 Referenced by corner_window_piece
+[2019.03.05-12.30.08:177][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading NULL.
+[2019.03.05-12.30.08:177][589]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
+[2019.03.05-12.30.08:177][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading NULL.
+[2019.03.05-12.30.08:179][589]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
+[2019.03.05-12.30.08:179][589]LoadErrors: Failed to load /Game/Models/Corner_building/lambert1.lambert1 Referenced by corner_base
+[2019.03.05-12.30.08:179][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading NULL.
+[2019.03.05-12.30.08:179][589]LogLinker: Warning: Can't find file '/Game/Models/Corner_building/lambert1'
+[2019.03.05-12.30.08:179][589]LogLinker: Warning: Can't find file for asset '/Game/Models/Corner_building/lambert1' while loading NULL.
+[2019.03.05-12.30.09:717][589]LogAIModule: Creating AISystem for world AkihabaraStyleMap
+[2019.03.05-12.30.09:732][589]LogMaterial: Warning: Material /Game/Materials/Palette/Palette.Palette needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:743][589]LogMaterial: Display: Missing cached shader map for material Palette, compiling. 
+[2019.03.05-12.30.09:788][589]MapCheck: Warning: Palette Material /Game/Materials/Palette/Palette.Palette was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:795][589]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.05-12.30.09:796][589]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.05-12.30.09:796][589]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.05-12.30.09:796][589]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.05-12.30.09:799][589]LogMaterial: Warning: Material /Game/Materials/Boxcrate/BoxCrate.BoxCrate needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:800][589]LogMaterial: Display: Missing cached shader map for material BoxCrate, compiling. 
+[2019.03.05-12.30.09:812][589]MapCheck: Warning: BoxCrate Material /Game/Materials/Boxcrate/BoxCrate.BoxCrate was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:813][589]LogMaterial: Warning: Material /Game/Materials/CylinderCrate/CylinderCrate.CylinderCrate needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:815][589]LogMaterial: Display: Missing cached shader map for material CylinderCrate, compiling. 
+[2019.03.05-12.30.09:826][589]MapCheck: Warning: CylinderCrate Material /Game/Materials/CylinderCrate/CylinderCrate.CylinderCrate was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:828][589]LogMaterial: Warning: Material /Game/Materials/Bench/Bench.Bench needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:830][589]LogMaterial: Display: Missing cached shader map for material Bench, compiling. 
+[2019.03.05-12.30.09:842][589]MapCheck: Warning: Bench Material /Game/Materials/Bench/Bench.Bench was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:845][589]LogMaterial: Warning: Material /Game/Materials/concreteblock/ConcreteBlock.ConcreteBlock needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:846][589]LogMaterial: Display: Missing cached shader map for material ConcreteBlock, compiling. 
+[2019.03.05-12.30.09:863][589]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.03.05-12.30.09:863][589]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.03.05-12.30.09:863][589]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.03.05-12.30.09:863][589]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.03.05-12.30.09:863][589]MapCheck: Warning: ConcreteBlock Material /Game/Materials/concreteblock/ConcreteBlock.ConcreteBlock was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:864][589]LogMaterial: Warning: Material /Game/Materials/Rubble1/Rubble.Rubble needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:866][589]LogMaterial: Display: Missing cached shader map for material Rubble, compiling. 
+[2019.03.05-12.30.09:879][589]MapCheck: Warning: Rubble Material /Game/Materials/Rubble1/Rubble.Rubble was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:880][589]LogMaterial: Warning: Material /Game/Models/Tali_new/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:881][589]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.03.05-12.30.09:911][589]MapCheck: Warning: lambert1 Material /Game/Models/Tali_new/lambert1.lambert1 was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:912][589]LogMaterial: Warning: Material /Game/Models/Tali_new/WorldGridMaterial.WorldGridMaterial needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:914][589]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2019.03.05-12.30.09:938][589]MapCheck: Warning: WorldGridMaterial Material /Game/Models/Tali_new/WorldGridMaterial.WorldGridMaterial was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:940][589]LogMaterial: Warning: Material /Game/Materials/StandingSign/StandingSign.StandingSign needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:941][589]LogMaterial: Display: Missing cached shader map for material StandingSign, compiling. 
+[2019.03.05-12.30.09:954][589]MapCheck: Warning: StandingSign Material /Game/Materials/StandingSign/StandingSign.StandingSign was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.09:963][589]LogMaterial: Warning: Material /Game/Models/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-12.30.09:964][589]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.03.05-12.30.09:991][589]MapCheck: Warning: lambert1 Material /Game/Models/lambert1.lambert1 was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-12.30.10:063][589]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap
+[2019.03.05-12.30.10:118][589]Cmd: MAP LOAD FILE="F:/Thighhighstudios/Thighhigh2/ThighHigh-Studios/Parallel 4.20/Content/Maps/AkihabaraStyleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.05-12.30.10:118][589]LightingResults: New page: Lighting Build
+[2019.03.05-12.30.10:119][589]LoadErrors: New page: Loading map: AkihabaraStyleMap.umap
+[2019.03.05-12.30.10:119][589]MapCheck: New page: Map Check
+[2019.03.05-12.30.10:119][589]LightingResults: New page: Lighting Build
+[2019.03.05-12.30.10:378][589]LogShaderCompilers: Display: Shaders left to compile 353
+[2019.03.05-12.30.10:383][589]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.05-12.30.10:474][589]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.05-12.30.10:612][589]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 137.397ms to complete.
+[2019.03.05-12.30.10:613][589]LogFileHelpers: Loading map 'AkihabaraStyleMap' took 0.497
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'part1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh2': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh3': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh4': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh5': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh6': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh7': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding2_6
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'part1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh2': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh3': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh4': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh5': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh6': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:656][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh7': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding3
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'part1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh2': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh3': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh4': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh5': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh6': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh7': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding4
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'part1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh1': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh2': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh3': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh4': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh5': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:657][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh6': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.10:658][589]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'StaticMesh7': ThinBuilding_C /Game/Maps/AkihabaraStyleMap.AkihabaraStyleMap:PersistentLevel.ThinBuilding_3
+[2019.03.05-12.30.11:712][592]LogShaderCompilers: Display: Shaders left to compile 343
+[2019.03.05-12.30.11:830][592]LogShaderCompilers: Display: Shaders left to compile 333
+[2019.03.05-12.30.11:890][592]LogShaderCompilers: Display: Shaders left to compile 323
+[2019.03.05-12.30.13:151][662]LogShaderCompilers: Display: Shaders left to compile 313
+[2019.03.05-12.30.13:185][664]LogShaderCompilers: Display: Shaders left to compile 303
+[2019.03.05-12.30.13:317][672]LogShaderCompilers: Display: Shaders left to compile 293
+[2019.03.05-12.30.13:340][673]LogShaderCompilers: Display: Shaders left to compile 283
+[2019.03.05-12.30.13:389][676]LogShaderCompilers: Display: Shaders left to compile 273
+[2019.03.05-12.30.13:582][688]LogShaderCompilers: Display: Shaders left to compile 263
+[2019.03.05-12.30.13:609][691]LogSlate: Window 'Message Log' being destroyed
+[2019.03.05-12.30.13:613][691]LogSlate: Window 'Message Log' being destroyed
+[2019.03.05-12.30.14:863][766]LogShaderCompilers: Display: Shaders left to compile 253
+[2019.03.05-12.30.14:916][769]LogShaderCompilers: Display: Shaders left to compile 243
+[2019.03.05-12.30.15:098][780]LogShaderCompilers: Display: Shaders left to compile 233
+[2019.03.05-12.30.15:447][801]LogShaderCompilers: Display: Shaders left to compile 223
+[2019.03.05-12.30.16:095][841]LogShaderCompilers: Display: Shaders left to compile 213
+[2019.03.05-12.30.16:168][845]LogShaderCompilers: Display: Shaders left to compile 203
+[2019.03.05-12.30.16:244][851]LogShaderCompilers: Display: Shaders left to compile 193
+[2019.03.05-12.30.16:310][854]LogShaderCompilers: Display: Shaders left to compile 183
+[2019.03.05-12.30.17:022][902]LogShaderCompilers: Display: Shaders left to compile 173
+[2019.03.05-12.30.17:392][924]LogShaderCompilers: Display: Shaders left to compile 163
+[2019.03.05-12.30.18:090][966]LogShaderCompilers: Display: Shaders left to compile 153
+[2019.03.05-12.30.18:345][986]LogShaderCompilers: Display: Shaders left to compile 143
+[2019.03.05-12.30.18:426][991]LogShaderCompilers: Display: Shaders left to compile 133
+[2019.03.05-12.30.18:436][992]LogShaderCompilers: Display: Shaders left to compile 123
+[2019.03.05-12.30.19:066][ 33]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.03.05-12.30.19:093][ 35]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.03.05-12.30.19:196][ 40]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.03.05-12.30.19:970][ 77]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.03.05-12.30.20:520][104]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.03.05-12.30.20:543][105]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.03.05-12.30.21:070][132]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.03.05-12.30.21:384][146]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.03.05-12.30.21:550][154]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.05-12.30.22:012][181]LogActorFactory: Actor Factory created fence
+[2019.03.05-12.30.22:082][184]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.05-12.30.22:268][193]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.05-12.30.22:681][219]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.05-12.30.23:027][236]LogActorFactory: Actor Factory created fence
+[2019.03.05-12.30.35:751][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fence)
+[2019.03.05-12.30.36:465][685]Cmd: DELETE
+[2019.03.05-12.30.36:465][685]Cmd: ACTOR DELETE
+[2019.03.05-12.30.36:510][685]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.05-12.30.36:529][685]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2019.03.05-12.30.41:026][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-12.30.43:597][230]LogSlate: Window 'Save Content' being destroyed
+[2019.03.05-12.30.43:697][230]LogSlate: Window 'Parallel - Unreal Editor' being destroyed
+[2019.03.05-12.30.43:851][231]Cmd: QUIT_EDITOR
+[2019.03.05-12.30.43:872][231]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.05-12.30.43:872][231]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.05-12.30.43:883][231]LogExit: Preparing to exit.
+[2019.03.05-12.30.44:043][231]LogExit: Editor shut down
+[2019.03.05-12.30.44:043][231]LogExit: Transaction tracking system shut down
+[2019.03.05-12.30.45:063][231]LogExit: Object subsystem successfully closed.
+[2019.03.05-12.30.45:080][231]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.05-12.30.45:083][231]LogD3D11RHI: Shutdown
+[2019.03.05-12.30.45:083][231]LogD3D11RHI: CleanupD3DDevice
+[2019.03.05-12.30.45:086][231]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.05-12.30.45:093][231]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (616)
+[2019.03.05-12.30.45:093][231]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.03.05-12.30.45:093][231]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.03.05-12.30.45:093][231]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module BspMode (586)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.03.05-12.30.45:094][231]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.03.05-12.30.45:095][231]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.03.05-12.30.45:785][231]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.03.05-12.30.45:785][231]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.03.05-12.30.45:785][231]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.03.05-12.30.45:785][231]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.03.05-12.30.45:785][231]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.03.05-12.30.45:785][231]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.03.05-12.30.45:786][231]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.03.05-12.30.45:787][231]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.03.05-12.30.45:787][231]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.03.05-12.30.45:787][231]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.03.05-12.30.45:787][231]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.03.05-12.30.45:787][231]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.03.05-12.30.45:787][231]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.03.05-12.30.45:787][231]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.03.05-12.30.45:850][231]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.03.05-12.30.45:850][231]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.03.05-12.30.45:850][231]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.03.05-12.30.45:850][231]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.03.05-12.30.45:850][231]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.03.05-12.30.45:850][231]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.03.05-12.30.45:851][231]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.03.05-12.30.45:851][231]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.03.05-12.30.45:851][231]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.03.05-12.30.45:851][231]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module OutputLog (436)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module GammaUI (434)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module Documentation (432)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module MovieScene (428)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module PortalServices (420)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module AIModule (414)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module DesktopPlatform (406)
+[2019.03.05-12.30.45:857][231]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
+[2019.03.05-12.30.45:915][231]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
+[2019.03.05-12.30.45:915][231]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.03.05-12.30.45:915][231]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.03.05-12.30.45:915][231]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.03.05-12.30.45:915][231]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.03.05-12.30.45:915][231]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.03.05-12.30.45:916][231]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
+[2019.03.05-12.30.45:926][231]LogModuleManager: Shutting down and abandoning module DatasmithContent (344)
+[2019.03.05-12.30.45:940][231]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
+[2019.03.05-12.30.45:940][231]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
+[2019.03.05-12.30.45:940][231]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
+[2019.03.05-12.30.45:940][231]LogModuleManager: Shutting down and abandoning module PolygonModeling (336)
+[2019.03.05-12.30.45:940][231]LogModuleManager: Shutting down and abandoning module MeshEditor (334)
+[2019.03.05-12.30.45:940][231]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module SourceControl (317)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
+[2019.03.05-12.30.45:941][231]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module PhysXVehicles (298)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module OculusEditor (296)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (292)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (290)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
+[2019.03.05-12.30.45:942][231]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
+[2019.03.05-12.30.45:943][231]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.05-12.30.45:943][231]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.05-12.30.46:044][231]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.05-12.30.46:144][231]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.05-12.30.46:144][231]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.05-12.30.46:144][231]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.05-12.30.46:144][231]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.05-12.30.46:144][231]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.05-12.30.46:144][231]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.05-12.30.46:145][231]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.05-12.30.46:146][231]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.05-12.30.46:146][231]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.05-12.30.46:147][231]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.05-12.30.46:147][231]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.05-12.30.46:148][231]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.05-12.30.46:150][231]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.05-12.30.46:150][231]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.05-12.30.46:151][231]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.05-12.30.46:151][231]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.05-12.30.46:151][231]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.05-12.30.46:151][231]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.05-12.30.46:154][231]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.05-12.30.46:161][231]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.05-12.30.46:161][231]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.05-12.30.46:161][231]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.05-12.30.46:162][231]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.05-12.30.46:163][231]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.05-12.30.46:163][231]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.05-12.30.46:163][231]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.05-12.30.46:163][231]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.05-12.30.46:167][231]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.05-12.30.46:293][231]LogDerivedDataCache: Shutdown
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.05-12.30.46:293][231]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.05-12.30.46:294][231]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.05-12.30.46:295][231]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.05-12.30.46:297][231]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.05-12.30.46:297][231]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.05-12.30.46:298][231]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.05-12.30.46:298][231]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.05-12.30.46:303][231]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.05-12.30.46:304][231]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.05-12.30.46:304][231]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.05-12.30.46:311][231]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.05-12.30.46:311][231]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.05-12.30.46:311][231]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3EB8117A-4110-9087-50EF-CB87164F0473%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=26abf5f74b091e5498fa87a8299d82c3%7C%7C24ce8261-25e8-40df-b898-e353231e3096&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.05-12.30.46:323][231]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.05-12.30.46:324][231]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.05-12.30.46:324][231]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.05-12.30.46:325][231]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.05-12.30.46:333][231]LogExit: Exiting.
+[2019.03.05-12.30.46:339][231]Log file closed, 03/05/19 12:30:46
